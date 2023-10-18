@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: petal
+  m_Name: petal 1
   m_Shader: {fileID: -6465566751694194690, guid: b7ab9d54d7204c64bb47e60ea0fde9bd,
     type: 3}
   m_Parent: {fileID: 0}
@@ -73,32 +73,32 @@ Material:
     - _Alpha: 0.19
     - _BottomLine: 0.52
     - _IceFresnelPower: 1.28
-    - _IceNormalSize: 14.52
-    - _IceNormalStrength: -0.07
+    - _IceNormalSize: 100
+    - _IceNormalStrength: 0.05
     - _IceTiling: -0.05
-    - _IsTransparant: 0
-    - _Metallic: 0
+    - _IsTransparant: 1
+    - _Metallic: 1
     - _Parallax_Amplitude: 100.06
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionAmount: -0.51
     - _RefractionStrength: 5
-    - _RotateAmount: 14.43
-    - _Smoothness: 0.822
+    - _RotateAmount: 0
+    - _Smoothness: 1
     - _StartWiggleAngle: -2
     - _Steps: 260.5
     - _TopLine: 0.43
     - _WiggleSpeed: 1
     - _WiggleStart: 0.02
     - _Wiggle_size: -0.3
-    - _alphaclip: 0.18
+    - _alphaclip: 0.08
     - _rotate: -3.82
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.628765, b: 2.09227, a: 1}
-    - _BottomColor: {r: 1.901264, g: 0, b: 1.6478022, a: 1}
+    - _BaseColor: {r: 1.5858638, g: 2.5461583, b: 4.3271427, a: 1}
+    - _BottomColor: {r: 0, g: 0.42736804, b: 1.9012638, a: 1}
     - _IceFresnelColor: {r: 2, g: 2, b: 2, a: 0}
-    - _SparkleColor: {r: 5.709803, g: 3.2883682, b: 5.231495, a: 1}
-    - _TopColor: {r: 8.400133, g: 4.556676, b: 7.5460315, a: 1}
+    - _SparkleColor: {r: 0, g: 1.6070218, b: 3.9365225, a: 1}
+    - _TopColor: {r: 4.573895, g: 8.330874, b: 8.400134, a: 1}
     - _Vector2: {r: 0, g: 0.07, b: 0, a: 0}
     - _Vector2_1: {r: 0, g: 85.8, b: 0, a: 0}
   m_BuildTextureStacks: []
