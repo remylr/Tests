@@ -57,6 +57,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _VoroiScrollSpeed: 1
+    - _fade_distance: 2.5
     - _outsideFadeSize: 6.81
     m_Colors:
     - _DistortionAmount: {r: 0.19, g: 0.34, b: 0, a: 0}

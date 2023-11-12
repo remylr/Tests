@@ -42,10 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DistanceFade: 4.16
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _dissolve: 1
     m_Colors:
-    - _Color: {r: 2.1333334, g: 3.372549, b: 4, a: 1}
+    - _Color: {r: 8.533334, g: 13.490196, b: 16, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &9139451617043443915
 MonoBehaviour:
