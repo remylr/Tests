@@ -56,18 +56,18 @@ Material:
     m_Floats:
     - _Boolean: 0
     - _CellAngleSpeed: 0.5
-    - _CellMoveSpeed: -0.1
+    - _CellMoveSpeed: 0.34
     - _DripOriginMoveSpeed: 0
     - _DripSeparation: 0
     - _Float: 1.9
     - _InnerCellSize: 1.7
     - _MaxHeight: -0.5
-    - _OuterCellSize: -1.5
+    - _OuterCellSize: -0.54
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Wiggle_amount: 0.0021
     - _cellDensity: 5.94
-    - _dripAmount: 2.13
+    - _dripAmount: 2.37
     - _dripHeight: -1.19
     - _dripHieht: -1
     - _dripHight: -1.05
