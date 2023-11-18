@@ -25,11 +25,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 92226573724134942a6a9b853e7113e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: bcd547401078e2d468244c41b3dd1a48, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2DLOD_250cfceb7ca04690903cb6afc234dd72_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 84fe459e37894fe409d035b7f401fbbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_501f8c010e9040abb96086e2e1c9a766_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: facc5629fe20a9e48af61bc7e76f946d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e591682232ca49f9b2a040ab57a6f572_Texture_1_Texture2D:
@@ -57,24 +65,26 @@ Material:
     - _DripSeparation: 0
     - _Float: 1.9
     - _InnerCellSize: 1.7
+    - _MaxHeight: 18.85
     - _OuterCellSize: -1.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Wiggle_amount: 0.0021
     - _cellDensity: 5.94
-    - _dripAmount: 1
-    - _dripHeight: -1.19
+    - _dripAmount: 2.37
+    - _dripHeight: -2
     - _dripHieht: -1
     - _dripHight: -1.05
-    - _endDripHeight: -1.945
+    - _endDripHeight: -2
     - _endDripHight: -1.6
-    - _get_bigger_at_the_bottom: 5
-    - _heightDef: 1.4
+    - _get_bigger_at_the_bottom: 1
+    - _heightDef: 1
     - _hightDef: 1
-    - _isParticule: 0
+    - _isParticule: 1
+    - _useMask: 1
     m_Colors:
-    - _InnerColor: {r: 28.51894, g: 1.8198162, b: 0, a: 1}
-    - _OuterColor: {r: 4.7593803, g: 0.1456204, b: 0, a: 1}
+    - _InnerColor: {r: 14.259464, g: 4.135033, b: 0, a: 1}
+    - _OuterColor: {r: 9.518761, g: 0.2912408, b: 0, a: 1}
     - _Vector2: {r: -0.04, g: 1.06, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8169487352432613299
