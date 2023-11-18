@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SCROLLING 1
+  m_Name: OuterExplosion
   m_Shader: {fileID: -6465566751694194690, guid: 9dd29029e8ba61444ab471b08e609447,
     type: 3}
   m_Parent: {fileID: 0}
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScrollingTexture:
-        m_Texture: {fileID: 2800000, guid: 62d5877b343811941af6b4a58d37acac, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4b8484c1faaabec47841aad107a6fdbe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -51,17 +51,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cell_density: 5
-    - _DistortionScrollSpeed: 0
-    - _NoiseScrollSpeed: 0.12
-    - _Power: 3.99
+    - _DistortionScrollSpeed: 1
+    - _NoiseScrollSpeed: 0
+    - _Power: 2.26
     - _QueueControl: 0
     - _QueueOffset: 0
     - _VoroiScrollSpeed: 1
-    - _fade_distance: 0
-    - _outsideFadeSize: 6.81
+    - _fade_distance: 5.1
+    - _outsideFadeSize: 3.06
     m_Colors:
     - _DistortionAmount: {r: 0.19, g: 0.34, b: 0, a: 0}
-    - _DistortionStrenght: {r: 0, g: 0.09, b: 0, a: 0}
+    - _DistortionStrenght: {r: 0, g: 0, b: 0, a: 0}
     - _Transparency: {r: 61.17, g: -63.27, b: 0, a: 0}
     - _Vector2: {r: 0.19, g: 0.34, b: 0, a: 0}
   m_BuildTextureStacks: []

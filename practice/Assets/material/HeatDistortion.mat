@@ -46,9 +46,11 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionAmount: 0.1
-    - _StripsVisibility: 0
+    - _StripsVisibility: 0.227
     - _XOffset: 1
     - _YOffset: 0
+    - _isParticule: 1
+    - _isUp: 1
     m_Colors:
     - _InnerColor: {r: 4, g: 0.7084858, b: 0, a: 1}
   m_BuildTextureStacks: []
