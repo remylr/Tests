@@ -64,7 +64,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Boolean: 0
-    - _Float: 1.81
+    - _Float: 52.86
+    - _IsParticules: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SparklesSpeed: 5
