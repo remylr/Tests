@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IceMask:
-        m_Texture: {fileID: 2800000, guid: 92226573724134942a6a9b853e7113e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 298133f0fb58c7e4494b3e67f3167ab0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IceTexture:
@@ -70,12 +70,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.19
+    - _Alpha: -6.81
     - _BottomLine: 0.52
-    - _IceFresnelPower: 1.28
-    - _IceNormalSize: 100
+    - _IceFresnelPower: 1.77
+    - _IceNormalSize: 50
     - _IceNormalStrength: 0.05
-    - _IceTiling: -0.05
+    - _IceTiling: 0.01
     - _IsTransparant: 1
     - _Metallic: 1
     - _Parallax_Amplitude: 100.06
@@ -91,7 +91,8 @@ Material:
     - _WiggleSpeed: 1
     - _WiggleStart: 0.02
     - _Wiggle_size: -0.3
-    - _alphaclip: 0.08
+    - _alphaclip: 0.3
+    - _crystal_sizes: 108.88
     - _rotate: -3.82
     m_Colors:
     - _BaseColor: {r: 1.5858638, g: 2.5461583, b: 4.3271427, a: 1}
