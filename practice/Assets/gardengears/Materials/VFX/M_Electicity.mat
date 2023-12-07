@@ -53,13 +53,13 @@ Material:
     m_Floats:
     - _DistortionSize: 98.24
     - _ElecticityMovementSpeed: 5
-    - _Float: 0.03
+    - _Float: 0.51
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 5
     m_Colors:
-    - _Color: {r: 4.937271, g: 1.0710306, b: 0, a: 1}
-    - _Color_1: {r: 5.3403134, g: 3.5317903, b: 1.4862194, a: 1}
+    - _Color: {r: 1.2038232, g: 0.3009558, b: 0, a: 1}
+    - _Color_1: {r: 1.7824347, g: 1.7824347, b: 1.7824347, a: 1}
     - _Scale: {r: 40, g: 1, b: 0, a: 0}
     - _Scale_1: {r: 25, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
