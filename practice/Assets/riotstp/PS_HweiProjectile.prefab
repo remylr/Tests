@@ -9802,7 +9802,7 @@ GameObject:
   - component: {fileID: 5803474145157884311}
   - component: {fileID: 4738966242115779227}
   m_Layer: 0
-  m_Name: HweiProjectile
+  m_Name: PS_HweiProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
