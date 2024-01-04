@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_RiotBulletScroll
+  m_Name: M_FrontWind
   m_Shader: {fileID: -6465566751694194690, guid: d726f856a4836974b934d1d44d0cbc33,
     type: 3}
   m_Parent: {fileID: 0}
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9d8f716b2e4b86f419f5a231b43f070f, type: 3}
+        m_Texture: {fileID: 2800000, guid: f27063552dd0e1d44abefd2927c1dbbb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_5dfa63a6c5fb42efa49e5d7c804044b0_Out_0_Texture2D:
@@ -49,11 +49,11 @@ Material:
     - _ConstantMove: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VanishingPoint: 1
-    - _vanishingpoint: 0
+    - _VanishingPoint: 0
+    - _vanishingpoint: 4.28
     - _vanisingpoint: -0.24
     m_Colors:
-    - _move_speed: {r: 1, g: 1, b: 0, a: 0}
+    - _move_speed: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5261038008003802780
 MonoBehaviour:
