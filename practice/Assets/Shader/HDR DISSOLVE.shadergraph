@@ -92,6 +92,9 @@
         },
         {
             "m_Id": "b6cce06cd09f4b30897935eddd706260"
+        },
+        {
+            "m_Id": "9aaaa621606b4b6a975e0431084f3029"
         }
     ],
     "m_GroupDatas": [],
@@ -263,6 +266,20 @@
                     "m_Id": "001faa3645374528a6ba454b529a3aed"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9aaaa621606b4b6a975e0431084f3029"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "078240d5387e4ab69146f984b856ea85"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -1828,6 +1845,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "9aaaa621606b4b6a975e0431084f3029",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1547.3250732421875,
+            "y": 894.0099487304688,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "f3bdea602698418cab73bc0dcfb3e2bc"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "e6d6a9f583a24186967c2ca5241b517b"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "9c58e42cdbcf488e9866ddd4fbe3d148",
     "m_Id": 4,
@@ -2828,6 +2881,19 @@
     "m_StageCapability": 3,
     "m_Value": false,
     "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
+    "m_ObjectId": "f3bdea602698418cab73bc0dcfb3e2bc",
+    "m_Id": 0,
+    "m_DisplayName": "mask",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
 }
 
 {
