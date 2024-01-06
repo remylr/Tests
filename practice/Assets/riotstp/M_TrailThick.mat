@@ -60,7 +60,7 @@ Material:
     m_Colors:
     - _Tiling: {r: 1, g: 0.4, b: 0, a: 0}
     - _TilingMainTex: {r: 2.73, g: 1, b: 0, a: 0}
-    - _TilingMask: {r: 2.77, g: 1, b: 0, a: 0}
+    - _TilingMask: {r: 2, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1644722609923144058
 MonoBehaviour:

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ImpactThick
-  m_Shader: {fileID: -6465566751694194690, guid: d726f856a4836974b934d1d44d0cbc33,
+  m_Name: M_FloorCircle
+  m_Shader: {fileID: -6465566751694194690, guid: 981e93589c5c55949853a52b1dbacf4e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,19 +25,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 688d8f703726e1545b8a9e69deb8b599, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
-        m_Texture: {fileID: 2800000, guid: 8920890e1a846104b854eb5780b9f545, type: 3}
+        m_Texture: {fileID: 2800000, guid: f6a2fbbf99d69d94dba0980cdf8bb8a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_225f9bd53338465da160f3209591c4d8_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 3956e747d6c973944aa9dadb2837dcb7, type: 3}
+    - _Texture2DAsset_5dfa63a6c5fb42efa49e5d7c804044b0_Out_0_Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_2e4ab86b6ba241b7bc68fc53fb3ef7f5_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ce645b283da67844ba058883574a4b0a, type: 3}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: f6a2fbbf99d69d94dba0980cdf8bb8a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,21 +55,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _ConstantMove: 0
-    - _MaskScroll: 0.5
+    - _DistanceFade: 0
+    - _MaskScroll: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ScrollAmount: 0.17
     - _VanishingPoint: 1
+    - _dissolve: 1
     - _vanishingpoint: 0
+    - _vanisingpoint: -0.24
     m_Colors:
-    - _Color: {r: 2, g: 2, b: 2, a: 0}
-    - _MaskScale: {r: 2, g: 2, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 0.4, b: 0, a: 0}
-    - _TilingMainTex: {r: 9.29, g: 0.29, b: 0, a: 0}
-    - _TilingMask: {r: 1, g: 1, b: 0, a: 0}
-    - _move_speed: {r: 0, g: 0.5, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskScale: {r: 1, g: -1.16, b: 0, a: 0}
+    - _move_speed: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &1644722609923144058
+--- !u!114 &5261038008003802780
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
