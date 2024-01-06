@@ -63,14 +63,14 @@ Material:
     - _MaskScroll: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Step: 1
+    - _Step: 0
     - _TextureColor: 0
     - _VanishingPoint: 1
     - _dissolve: 1
     - _vanishingpoint: 0
     - _vanisingpoint: -0.24
     m_Colors:
-    - _Color: {r: 4, g: 4, b: 4, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColourStars: {r: 0, g: 0, b: 0, a: 0}
     - _MaskScale: {r: 1, g: -1.16, b: 0, a: 0}
     - _move_speed: {r: 0, g: 0, b: 0, a: 0}
