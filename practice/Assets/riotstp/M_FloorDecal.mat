@@ -59,6 +59,7 @@ Material:
     - _MaskScroll: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Step: 0
     - _TextureColor: 1
     - _VanishingPoint: 1
     - _dissolve: 1

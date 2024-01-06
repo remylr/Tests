@@ -58,6 +58,7 @@ Material:
     - _QueueOffset: 0
     - _ScrollAmount: 0.17
     m_Colors:
+    - _Colour: {r: 2, g: 2, b: 2, a: 0}
     - _Tiling: {r: 1, g: 0.4, b: 0, a: 0}
     - _TilingMainTex: {r: 1, g: 1, b: 0, a: 0}
     - _TilingMask: {r: 0.4, g: 1, b: 0, a: 0}
