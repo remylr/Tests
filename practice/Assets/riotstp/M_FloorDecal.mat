@@ -32,6 +32,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: f6a2fbbf99d69d94dba0980cdf8bb8a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MovingTex:
+        m_Texture: {fileID: 2800000, guid: e87fb8831a15ed14594910334e25d12f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_5dfa63a6c5fb42efa49e5d7c804044b0_Out_0_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -67,8 +71,10 @@ Material:
     - _vanisingpoint: -0.24
     m_Colors:
     - _Color: {r: 2, g: 2, b: 2, a: 1}
+    - _ColourStars: {r: 2.9245284, g: 3.4816217, b: 4, a: 0}
     - _MaskScale: {r: 1, g: -1.16, b: 0, a: 0}
     - _move_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _starsscroll: {r: 0, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5261038008003802780
 MonoBehaviour:
