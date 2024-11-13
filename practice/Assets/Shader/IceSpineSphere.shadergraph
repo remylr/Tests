@@ -35,6 +35,9 @@
         },
         {
             "m_Id": "bd2d50b7cbe44e13bcd81a3822e46990"
+        },
+        {
+            "m_Id": "d161b095f1ce499b8fb20ce6a6fa6d2e"
         }
     ],
     "m_Keywords": [],
@@ -257,6 +260,9 @@
         },
         {
             "m_Id": "9b2d5a43de5744f4a07f3cbdb387f81b"
+        },
+        {
+            "m_Id": "e78b2bb448c64350854a7691e47f8030"
         }
     ],
     "m_GroupDatas": [
@@ -1196,6 +1202,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "e78b2bb448c64350854a7691e47f8030"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c1b44287fac540a4a008cae249d72361"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "e81bc820730c4f30a6831b23cd14f334"
                 },
                 "m_SlotId": 0
@@ -1613,10 +1633,10 @@
     "m_Guid": {
         "m_GuidSerialized": "d3dab403-5c93-496a-9b87-1f0917b4f9f5"
     },
-    "m_Name": "Float",
+    "m_Name": "Fresnel",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float",
-    "m_DefaultReferenceName": "_Float",
+    "m_RefNameGeneratedByDisplayName": "Fresnel",
+    "m_DefaultReferenceName": "_Fresnel",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2106,6 +2126,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "19ea75c07ed541efa00f82f79a5e5482",
+    "m_Id": 0,
+    "m_DisplayName": "Fresnel",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -4856,10 +4891,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3156.750244140625,
-            "y": 265.6500244140625,
-            "width": 0.0,
-            "height": 0.0
+            "x": -3120.000244140625,
+            "y": 177.0,
+            "width": 143.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -7592,7 +7627,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "c707487df3184697994c2bf01f929c38",
     "m_Id": 0,
-    "m_DisplayName": "Float",
+    "m_DisplayName": "Fresnel",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -8068,6 +8103,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "d161b095f1ce499b8fb20ce6a6fa6d2e",
+    "m_Guid": {
+        "m_GuidSerialized": "bb42f2d2-f42a-47e4-8a96-2cb0f72858d7"
+    },
+    "m_Name": "DownSwirlSpeed",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "DownSwirlSpeed",
+    "m_DefaultReferenceName": "_DownSwirlSpeed",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "d18090f0173b4e24818b3d07cf151c68",
@@ -8429,6 +8492,9 @@
         },
         {
             "m_Id": "bd2d50b7cbe44e13bcd81a3822e46990"
+        },
+        {
+            "m_Id": "d161b095f1ce499b8fb20ce6a6fa6d2e"
         }
     ]
 }
@@ -8728,6 +8794,42 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "e78b2bb448c64350854a7691e47f8030",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -3171.000244140625,
+            "y": 653.0,
+            "width": 179.0,
+            "height": 34.00006103515625
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "19ea75c07ed541efa00f82f79a5e5482"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "075ba3717d6f45fb83b7e657b73a7677"
+    }
 }
 
 {
