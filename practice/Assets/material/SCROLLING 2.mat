@@ -59,9 +59,11 @@ Material:
     - _VoroiScrollSpeed: 1
     - _fade_distance: 0
     - _outsideFadeSize: 6.81
+    - _usecustomVar: 1
     m_Colors:
     - _DistortionAmount: {r: 0.19, g: 0.34, b: 0, a: 0}
     - _DistortionStrenght: {r: 0, g: 0.09, b: 0, a: 0}
+    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
     - _Transparency: {r: 61.17, g: -63.27, b: 0, a: 0}
     - _Vector2: {r: 0.19, g: 0.34, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Matlove corcle
+  m_Name: Matlovesides$
   m_Shader: {fileID: -6465566751694194690, guid: 703af411e97b01c4682404ce0fcbabe0,
     type: 3}
   m_Parent: {fileID: 0}
@@ -64,21 +64,21 @@ Material:
     m_Ints: []
     m_Floats:
     - _Boolean: 0
-    - _DownSwirlSpeed: 0
+    - _DownSwirlSpeed: 0.1
     - _Float: 1.81
-    - _Fresnel: 1
-    - _Fresnel_1: 1
+    - _Fresnel: 229.5
+    - _Fresnel_1: 0
     - _IsParticules: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SparklesSpeed: 5
-    - _Splarkles: 1
+    - _SparklesSpeed: 0
+    - _Splarkles: 0
     - _Swirls: 1
     - _Swirls_Speed: 0.1
-    - _alpha: 0.05
-    - _distance: 17.57
+    - _alpha: 0
+    - _distance: 17.81
     m_Colors:
-    - _SparklesColor: {r: 21.361254, g: 12.078614, b: 14.152282, a: 1}
-    - _SwirlsColor1: {r: 2.3426847, g: 0, b: 0.063596435, a: 0}
+    - _SparklesColor: {r: 28.51895, g: 28.51895, b: 28.51895, a: 0}
+    - _SwirlsColor1: {r: 1.7998846, g: 1.4008535, b: 1.4133885, a: 0}
     - _SwirlsColor2: {r: 3.9999995, g: 0, b: 0.46776956, a: 0}
   m_BuildTextureStacks: []
