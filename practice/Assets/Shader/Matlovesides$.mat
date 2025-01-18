@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5db698a1893e2aa4e8c0aefb37332ee2, type: 3}
+        m_Texture: {fileID: 2800000, guid: b4ddd3324fada23498813e7e9fc10845, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_7e28f40962184a708b65db1724992913_Texture_1_Texture2D:
@@ -76,9 +76,9 @@ Material:
     - _Swirls: 1
     - _Swirls_Speed: 0.1
     - _alpha: 0
-    - _distance: 17.81
+    - _distance: 1
     m_Colors:
     - _SparklesColor: {r: 28.51895, g: 28.51895, b: 28.51895, a: 0}
     - _SwirlsColor1: {r: 1.7998846, g: 1.4008535, b: 1.4133885, a: 0}
-    - _SwirlsColor2: {r: 3.9999995, g: 0, b: 0.46776956, a: 0}
+    - _SwirlsColor2: {r: 3.9999995, g: 0, b: 0.15823743, a: 0}
   m_BuildTextureStacks: []

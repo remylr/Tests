@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Matlove corcle
+  m_Name: MatlovesidesDark
   m_Shader: {fileID: -6465566751694194690, guid: 703af411e97b01c4682404ce0fcbabe0,
     type: 3}
   m_Parent: {fileID: 0}
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b4ddd3324fada23498813e7e9fc10845, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5db698a1893e2aa4e8c0aefb37332ee2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_7e28f40962184a708b65db1724992913_Texture_1_Texture2D:
@@ -64,21 +64,21 @@ Material:
     m_Ints: []
     m_Floats:
     - _Boolean: 0
-    - _DownSwirlSpeed: -3.54
+    - _DownSwirlSpeed: 6.3
     - _Float: 1.81
-    - _Fresnel: 3.01
-    - _Fresnel_1: 1
+    - _Fresnel: 10000
+    - _Fresnel_1: 0
     - _IsParticules: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SparklesSpeed: -1.88
-    - _Splarkles: 1
+    - _SparklesSpeed: -2.28
+    - _Splarkles: 0
     - _Swirls: 1
     - _Swirls_Speed: 0.1
-    - _alpha: 2.83
+    - _alpha: -3.5
     - _distance: 1
     m_Colors:
-    - _SparklesColor: {r: 11.984313, g: 2.5438404, b: 3.7635133, a: 1}
-    - _SwirlsColor1: {r: 1.2075472, g: 0, b: 0.124180056, a: 1}
-    - _SwirlsColor2: {r: 3.4258614, g: 0, b: 0.20696452, a: 1}
+    - _SparklesColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SwirlsColor1: {r: 0, g: 0, b: 0, a: 1}
+    - _SwirlsColor2: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
