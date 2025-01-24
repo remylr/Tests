@@ -78,7 +78,7 @@ Material:
     - _alpha: 0
     - _distance: 1
     m_Colors:
-    - _SparklesColor: {r: 28.51895, g: 28.51895, b: 28.51895, a: 0}
-    - _SwirlsColor1: {r: 1.6322178, g: 0.9125607, b: 0.87000287, a: 0}
-    - _SwirlsColor2: {r: 5.3403134, g: 2.233088, b: 1.8892618, a: 0}
+    - _SparklesColor: {r: 57.0379, g: 57.0379, b: 57.0379, a: 0}
+    - _SwirlsColor1: {r: 6.528871, g: 3.6502428, b: 3.4800115, a: 0}
+    - _SwirlsColor2: {r: 21.36125, g: 8.93235, b: 7.557046, a: 0}
   m_BuildTextureStacks: []
